@@ -1,5 +1,6 @@
 //luke grube
 //example 13-1
+load("dispArr.js");
 
 function seqSearch(arr, data) {
 	for (var i = 0; i < arr.length; ++i) {
@@ -14,8 +15,9 @@ var nums = [];
 for (var i = 0; i < 100; ++i) {
 	nums[i] = Math.floor(Math.random() * 101);
 }
+
 dispArr(nums);
-putstr("Enter a number to search for: ");
+print("Enter a number to search for: ");
 var num = parseInt(readline());
 print();
 if (seqSearch(nums, num)) {
