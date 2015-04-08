@@ -14,7 +14,7 @@ var nums = [];
 for (var i = 0; i < 100; ++i) {
 	nums[i] = Math.floor(Math.random() * 101);
 }
-disArr(nums);
+dispArr(nums);
 putstr("Enter a number to search for: ");
 var num = parseInt(readline());
 print();
